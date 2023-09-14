@@ -1,0 +1,14 @@
+.product-management {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+
+  
+  
+  /* Add any additional styles you need */
+  

@@ -1,0 +1,121 @@
+.topbar {
+    background-color: #0a0612; /* Dark purple color */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    width: auto;
+    height: 75px
+  }
+
+@keyframes changeLogoColors {
+    0% {
+      color: #FF5733;
+    }
+    20% {
+      color: #FFD900;
+    }
+    40% {
+      color: #59FF00;
+    }
+    60% {
+      color: #E21537;
+    }
+    80% {
+      color: #FF5733;
+    }
+    100% {
+      color: #FF5733;
+    }
+  }
+  
+  .logo a:nth-child(1) {
+    animation: changeLogoColors 1s infinite 0.5s; /* Delay the animation for each letter */
+  }
+  
+  .logo a:nth-child(2) {
+    animation: changeLogoColors 1s infinite 1s; /* Delay the animation for each letter */
+  }
+  
+  .logo a:nth-child(3) {
+    animation: changeLogoColors 1s infinite 1.5s; /* Delay the animation for each letter */
+  }
+  
+  .logo a:nth-child(4) {
+    animation: changeLogoColors 1s infinite 2s; /* Delay the animation for each letter */
+  }
+  
+  .logo a:nth-child(5) {
+    animation: changeLogoColors 1s infinite 2.5s; /* Delay the animation for each letter */
+  }  
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 40px;
+    display: flex;
+  }
+  .logo a {
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .logo-a {
+    color: #FF5733;
+    animation: changeLogoColors 5s infinite;
+  }
+  
+  .logo-b {
+    color: #ffd900;
+    animation: changeLogoColors 5s infinite;
+  }
+  
+  .logo-c {
+    color: #59ff00;
+    animation: changeLogoColors 5s infinite;
+  }
+  
+  .logo-d {
+    color: #e21537;
+    animation: changeLogoColors 5s infinite;
+  }
+  
+  .logo-e {
+    color: #FF5733;
+    animation: changeLogoColors 5s infinite;
+  }
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 75px; /* Add your desired padding and height */
+    background-color: #0f0f0f; /* Background color for the top bar */
+    color: #ffffff; /* Text color for the top bar */
+  }
+  .topbar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Add your desired background color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow if desired */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .logout-button {
+    background-color: #e22b2b; /* Darker purple color for button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #a81616; /* Slightly lighter purple on hover */
+  }
+  

@@ -1,0 +1,47 @@
+.sidebar {
+    width: 300px;
+    height: 452px;
+    background-color: #150c25;
+    color: #ffffff; /* Default text color */
+    padding: 20px;
+    position: fixed;
+    top: 4;
+    left: 0;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .drawerPaper {
+    width: 500px;
+    
+    color: #fff;
+    margin-top: 4px;
+  }
+  
+  .listItem {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .listItem:hover {
+    background-color: #555;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }

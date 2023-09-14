@@ -1,0 +1,39 @@
+.login-container {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  margin-top: 100px;
+  align-items: center;
+  color: #fff; 
+}
+
+/* Set the background of form elements to white */
+.login-container input,
+.login-container input:focus,
+.login-container input[type="password"] {
+  background-color: #fff;
+}
+
+/* ... your other styles ... */
+
+  
+  .btn-primary {
+    background: #007bff;
+    border-color: #007bff;
+    
+  }
+  
+  .login_button:hover {
+    background: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .login_button{
+    width:200px;
+    margin-top: 1000px;
+    background: #007bff;
+    border-color: #007bff;
+    
+  }
